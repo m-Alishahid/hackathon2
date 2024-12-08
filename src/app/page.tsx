@@ -57,7 +57,7 @@ export default function Home() {
 
         {/* switch */}
         <div className="w-[60px] h-[60px] bg-blue-600 hover:bg-blue-500 rounded-lg flex items-center justify-center">
-          <img src="/swap.png" alt="Switch" className="w-[24px] h-[24px]" />
+          <img src="/Swap.png" alt="Switch" className="w-[24px] h-[24px]" />
         </div>
 
 
