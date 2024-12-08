@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-As a student of GIAIC (Generative AI Engineering of Governor sindh IT Initiative), I successfully completed the conversion of a Figma design template into fully responsive Next.js code. This project demonstrates my ability to implement UI/UX design, develop responsive websites, and work with modern web technologies.
+As a student of GIAIC (Generative AI Engineering of Governor Sindh IT Initiative), I participated in an individual 24-hour hackathon where I successfully converted a Figma design template into fully responsive Next.js code. This project highlights my skills in UI/UX design implementation, developing responsive websites, and working with modern web technologies under tight deadlines.
 
 ## Objective
 
