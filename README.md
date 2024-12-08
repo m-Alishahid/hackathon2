@@ -43,7 +43,7 @@ This project helped me gain hands-on experience in converting Figma designs to f
 
 ## Demo
 
-- **Link to live demo**: [hackathon2-template7.vercel.app]
+- **Link to live demo**: hackathon2-template7.vercel.app
 
 ## Installation
 
@@ -52,3 +52,10 @@ To run this project locally, follow these steps:
 1. Clone this repository:
    ```bash
    git clone https://github.com/your-username/figma-template-nextjs.git
+
+## Follow Me on Instagram for Coding Updates
+
+Stay updated with my latest coding projects, tips, and tutorials on my Instagram!
+
+[Follow me on Instagram](https://www.instagram.com/codecraftali)
+   
