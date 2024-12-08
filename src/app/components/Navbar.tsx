@@ -6,7 +6,7 @@ export default function Navbar() {
         <div className="h-auto w-full flex flex-wrap items-center justify-between px-4 py-4 bg-white">
             {/* Logo */}
             <div className="w-[120px] h-[40px] flex-shrink-0">
-                <Image src="/logo.png" alt="Logo" className="w-full h-full object-contain ml-4" width={120} height={40} />
+                <Image src="/Logo.png" alt="Logo" className="w-full h-full object-contain ml-4" width={120} height={40} />
             </div>
 
             {/* Search */}
@@ -23,7 +23,7 @@ export default function Navbar() {
             {/* Profile Icons */}
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
                 <a href="#">
-                    <Image src="/like.png" alt="Like" className="w-[36px] h-[36px]" width={36} height={36} />
+                    <Image src="/Like.png" alt="Like" className="w-[36px] h-[36px]" width={36} height={36} />
                 </a>
                 <a href="#">
                     <Image src="/Notification.png" alt="Notification" className="w-[36px] h-[36px]" width={36} height={36} />
