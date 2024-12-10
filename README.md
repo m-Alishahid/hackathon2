@@ -43,7 +43,7 @@ This project helped me gain hands-on experience in converting Figma designs to f
 
 ## Demo
 
-- **Link to live demo**: <a href="hackathon2-template7.vercel.app"> Click here</a>
+- **Link to live demo**: <a href="https://hackathon2-template7.vercel.app"> Click here</a>
 
 ## Installation
 
