@@ -8,7 +8,7 @@ export default function Header() {
         <div className="h-auto  w-full flex flex-wrap items-center justify-between px-4 py-4 bg-white">
             {/* Logo */}
             <div className="w-[120px] h-[40px] flex-shrink-0">
-                <img src="/logo.png" alt="Logo" className="w-full h-full object-contain ml-4" />
+                <img src="/Logo.png" alt="Logo" className="w-full h-full object-contain ml-4" />
 
             </div>
 
@@ -25,7 +25,7 @@ export default function Header() {
 
             {/* Profile Icons */}
             <div className="flex items-center space-x-4 mt-4 md:mt-0">
-                <a href="#"><img src="/like.png" alt="Like" className="w-[36px] h-[36px]" /></a>
+                <a href="#"><img src="/Like.png" alt="Like" className="w-[36px] h-[36px]" /></a>
                 <a href="#"><img src="/Notification.png" alt="Notification" className="w-[36px] h-[36px]" /></a>
                 <a href="#"><img src="/Settings.png" alt="Settings" className="w-[36px] h-[36px]" /></a>
                 <a href='#'><img src="/dev-ali.jpg" alt="" className='w-[44px] h-44px' /></a>
