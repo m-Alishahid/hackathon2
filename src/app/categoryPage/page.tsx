@@ -60,7 +60,7 @@ export default function Page() {
                   <p>
                     $99.00/<span className="text-gray-500">day</span>
                   </p>
-                  <Link href={'/details'}>
+                  <Link href={'/detailPage'}>
                     <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
                 </CardFooter>
               </Card>
