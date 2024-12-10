@@ -1,20 +1,15 @@
 "use client"
 
+
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect } from "react";
+import { Card,CardContent,CardDescription,CardFooter,CardHeader,CardTitle } from "@/components/ui/card";
 
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+
+
 
 export default function Home() {
-
 
   useEffect(() => {
     const sections = document.querySelectorAll("#block1, #block2, #block3, #block4, #block5");
@@ -52,7 +47,7 @@ export default function Home() {
 
       <section id="block2" className="w-full flex flex-wrap sm:flex-nowrap items-center justify-center sm:justify-between gap-4 sm:gap-8">
         <Image src={"/Pick - Up.png"} alt="" width={500} height={132} className="max-w-full" />
-        {/* <Image src={"/Switch.png"} alt="" width={60} height={60} className="max-w-full" /> */}
+
 
 
         {/* switch */}
@@ -65,10 +60,14 @@ export default function Home() {
       </section>
 
 
+
+
+
+      {/* Popular car  */}
       <section id="block3" className="popular w-full flex flex-col gap-4">
         <div className="first w-full flex items-center justify-between">
           <h1 className="text-gray-500 text-lg sm:text-xl">Popular Car</h1>
-          <Link href={"/categories"}>
+          <Link href={"/categoryPage"}>
             <h1 className="text-[#3563e9] font-bold hover:underline decoration-[#3563e9]">
               View All
             </h1>
@@ -91,7 +90,7 @@ export default function Home() {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <Link href={'/details'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+              <Link href={'/detailPage'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -111,7 +110,7 @@ export default function Home() {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <Link href={'/details'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+              <Link href={'/detailPage'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -158,6 +157,8 @@ export default function Home() {
       </section>
 
 
+
+      {/* Recommendation car */}
       <section id="block4" className="popular w-full flex flex-col gap-4">
         <h1 className="text-gray-500 text-lg sm:text-xl">Recommendation Car</h1>
         <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -197,7 +198,7 @@ export default function Home() {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <Link href={'/details'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+              <Link href={'/detailPage'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -298,7 +299,7 @@ export default function Home() {
               <p>
                 $99.00/<span className="text-gray-500">day</span>
               </p>
-              <Link href={'/details'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+              <Link href={'/detailPage'}><button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
             </CardFooter>
           </Card>
 
@@ -345,3 +346,9 @@ export default function Home() {
 
 
 // home page 
+
+
+
+
+
+

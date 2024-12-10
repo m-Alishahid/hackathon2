@@ -2,14 +2,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import Link from "next/link";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle, } from "@/components/ui/card";
 
 
 
@@ -25,9 +18,14 @@ export default function Page() {
 
   return (
     <div className='w-full flex'>
+
+
+      {/* sidebar  */}
       <div className="first hidden sm:flex w-[20%]">
-        <Image src={'/Nav Bar Side.png'} alt='' width={360} height={1600}/>
+        <Image src={'/Sidebar.png'} alt='' width={360} height={1600} />
       </div>
+
+
       <div className="sec w-full sm:w-[80%] bg-[#f6f7f9] p-4 sm:p-6  flex flex-col gap-10 font-[family-name:var(--font-geist-sans)]">
         <section className="w-full flex flex-col sm:flex-row items-center justify-center sm:justify-between ">
           <Image src={"/Pick - Up.png"} alt="" width={582} height={132} className="w-[200px] md:w-[270px] lg:w-[582px]" />
@@ -63,11 +61,16 @@ export default function Page() {
                     $99.00/<span className="text-gray-500">day</span>
                   </p>
                   <Link href={'/details'}>
-                  <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
+                    <button className="bg-[#3563e9] p-2 text-white rounded-md">Rent Now</button></Link>
                 </CardFooter>
               </Card>
             ))}
           </div>
+
+
+
+
+          {/* showmore cars */}
           {showMore && (
             <div className="sec grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
               {[
@@ -100,9 +103,13 @@ export default function Page() {
           )}
         </section>
 
+
+
+
+
         <section className="button w-full text-center">
-          <button 
-            onClick={toggleShowMore} 
+          <button
+            onClick={toggleShowMore}
             className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5"
           >
             {showMore ? "Show Less Cars" : "Show More Cars"}
@@ -112,4 +119,9 @@ export default function Page() {
     </div>
   );
 }
+
+
+
+
+
 

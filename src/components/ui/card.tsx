@@ -2,6 +2,10 @@ import * as React from "react"
 
 import { cn } from "@/lib/utils"
 
+
+
+
+// Card section
 const Card = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
@@ -17,6 +21,11 @@ const Card = React.forwardRef<
 ))
 Card.displayName = "Card"
 
+
+
+
+
+// cardheader section
 const CardHeader = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
@@ -27,8 +36,16 @@ const CardHeader = React.forwardRef<
     {...props}
   />
 ))
+
+
+
+
 CardHeader.displayName = "CardHeader"
 
+
+
+
+// cardtitle section
 const CardTitle = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
@@ -44,6 +61,10 @@ const CardTitle = React.forwardRef<
 ))
 CardTitle.displayName = "CardTitle"
 
+
+
+
+// carddescription section
 const CardDescription = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
@@ -56,6 +77,10 @@ const CardDescription = React.forwardRef<
 ))
 CardDescription.displayName = "CardDescription"
 
+
+
+
+// cardcontent section
 const CardContent = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>
@@ -64,6 +89,10 @@ const CardContent = React.forwardRef<
 ))
 CardContent.displayName = "CardContent"
 
+
+
+
+// cardfooter section
 const CardFooter = React.forwardRef<
   HTMLDivElement,
   React.HTMLAttributes<HTMLDivElement>

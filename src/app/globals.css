@@ -87,24 +87,8 @@ body, html {
 
 
 
-/* @keyframes appear {
-  from{
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  to{
-    opacity: 1;
-    transform: translateX(0px);
-  }
-}
 
-#block{
-  animation: appear 5s linear;
-  animation-timeline: view();
-  animation-range: entry 0% cover 40%;
-} */
-
-/* Animation for appearing from left */
+/* Animation */
 
 @keyframes appear {
   from {
@@ -118,9 +102,9 @@ body, html {
 }
 
 /* Initial state for all blocks */
-#block1, #block2, #block3, #block4, #block5, {
-  opacity: 0; /* Initially hidden */
-  transform: translateY(100px); /* Start below the normal position */
+#block1, #block2, #block3, #block4, #block5 {
+  opacity: 0;
+  transform: translateY(100px);
   transition: opacity 0.5s ease, transform 0.5s ease;
 }
 

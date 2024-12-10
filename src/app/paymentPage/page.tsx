@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  CardDescription,
-  CardFooter,
-  CardHeader,
-  CardTitle,
-} from "@/components/ui/card";
+import {Card,CardContent,CardDescription,CardFooter,CardHeader,CardTitle,} from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import Image from "next/image";
 import Link from "next/link";
@@ -23,6 +16,10 @@ export default function Page() {
               <h1>Step 1 of 4</h1>
             </CardDescription>
           </CardHeader>
+
+
+
+
           <CardContent className="flex flex-col gap-6">
             <div className="w-full flex flex-wrap gap-4">
               <div className="name flex flex-col gap-3 w-full lg:w-[46%]">
@@ -111,6 +108,10 @@ export default function Page() {
         </Card>
 
 
+
+
+
+
         <Card className="w-full lg:w-[852px] h-auto lg:h-[596px] flex flex-col justify-around">
           <CardHeader>
             <CardTitle>Payment Method</CardTitle>
@@ -137,7 +138,7 @@ export default function Page() {
           </CardHeader>
           <CardContent className="flex flex-col gap-8">
             <Image src={"/Confirmation.png"} alt="Confirmation" width={804} height={136} />
-            <Link href={'/admin'}>
+            <Link href={'/userPage'}>
             <button className="bg-[#3563e9] p-2 text-white rounded-xl w-[140px] h-[56px]">
               Rent Now
             </button></Link>
@@ -145,6 +146,7 @@ export default function Page() {
             <Image src={"/Safe Data.png"} alt="Safe Data" width={548} height={100} />
           </CardContent>
         </Card>
+        
       </div>
       <div className="details w-full flex-shrink-0 lg:w-[40%] order-1 lg:order-2 flex justify-center">
         <Image src={"/Rental Summary.png"} alt="Rental Summary" width={492} height={568} className=" lg:w-[492px] h-[568px]"  />
