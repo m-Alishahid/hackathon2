@@ -326,7 +326,7 @@ export default function Home() {
       </section>
 
       <section id="block5" className="button w-full text-center">
-        <Link href={"/categories"}>
+        <Link href={"/categoryPage"}>
           <button className="bg-[#3563e9] px-4 py-2 text-white rounded-md mt-5">
             Show More Cars
           </button>
